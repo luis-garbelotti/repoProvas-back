@@ -1,4 +1,4 @@
-type AppErrorTypes = "conflict" | "not_found" | "unauthorized";
+type AppErrorTypes = "conflict" | "not_found" | "unauthorized" | "unprocessable_entity";
 export interface AppError {
     type: AppErrorTypes;
     message: string;
